@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lieferando</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="script.js"></script>
+</head>
+<body onload="render()">
+    <div w3-include-html="./templates/header.html"></div>
+    <div id="content" class="content">
+      <div id="content-left" class="content-left">
+      <div id="img-cover" class="img-cover-container">
+        <img class="img-cover" src="./img/restaurant.jpg">
+      </div>
+     
+    
+    <div id="headlines" class="headlines">
+      <h1 id="headline">JD's Restaurant</h1>
+      <p id="text" class="text">Herzlich Willkommen in unserem Restaurant! Bei uns gibt es eine große Auswahl an Schmankerl aus der bulgarischen Küche.
+        Wir freuen uns auf ihren Besuch und wünschen Guten Appetit.</p>
+      <h2 id="menuofday">Menü des Tages</h2>
+    </div>
+    <div id="menu" class="menu-container"></div>
+    </div>
+      <div id="content-right" class="content-right responsive-basket-container"></div>
+      </div>
+      <div w3-include-html="./templates/footer.html"></div>
+    
+</body >
+</html>
